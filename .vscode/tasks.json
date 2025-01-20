@@ -11,10 +11,13 @@
                 "-I${workspaceFolder}/include",
                 "-L${workspaceFolder}/lib",
                 "${workspaceFolder}/src/*.cpp",
+                "${workspaceFolder}/src/*.h",
                 "${workspaceFolder}/src/glad.c",
+                "${workspaceFolder}/include/util/GLElements/*.cpp",
+                "${workspaceFolder}/include/util/GLElements/GLBuffers/*.cpp",
                 "-lglfw3dll",
                 "-o",
-                "${workspaceFolder}/project3.exe"
+                "${workspaceFolder}/Teapot.exe"
             ],
             "options" : {
                 "cmd" : "workspaceFolder"
