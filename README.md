@@ -15,7 +15,7 @@ To generate the `.exe` file, follow these steps:
 After building, you can run the executable by providing the required `.obj` file as an argument.
 
 ```sh
-./your_executable assets/teapot.obj
+./Teapot.exe assets/teapot.obj
 ```
 
 ## 🎮 Controls
